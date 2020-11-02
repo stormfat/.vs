@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coop_6(重载操作符)", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coop_7(函数对象)", "coop_7(函数对象)\coop_7(函数对象).vcxproj", "{C7276A3D-E7D1-4576-B75A-37EDB0B37BC2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coop_8(函数对象一元_二元谓词)", "coop_8(函数对象一元_二元谓词)\coop_8(函数对象一元_二元谓词).vcxproj", "{7C262964-A373-4119-899D-E5112656125B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{C7276A3D-E7D1-4576-B75A-37EDB0B37BC2}.Release|x64.Build.0 = Release|x64
 		{C7276A3D-E7D1-4576-B75A-37EDB0B37BC2}.Release|x86.ActiveCfg = Release|Win32
 		{C7276A3D-E7D1-4576-B75A-37EDB0B37BC2}.Release|x86.Build.0 = Release|Win32
+		{7C262964-A373-4119-899D-E5112656125B}.Debug|x64.ActiveCfg = Debug|x64
+		{7C262964-A373-4119-899D-E5112656125B}.Debug|x64.Build.0 = Debug|x64
+		{7C262964-A373-4119-899D-E5112656125B}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C262964-A373-4119-899D-E5112656125B}.Debug|x86.Build.0 = Debug|Win32
+		{7C262964-A373-4119-899D-E5112656125B}.Release|x64.ActiveCfg = Release|x64
+		{7C262964-A373-4119-899D-E5112656125B}.Release|x64.Build.0 = Release|x64
+		{7C262964-A373-4119-899D-E5112656125B}.Release|x86.ActiveCfg = Release|Win32
+		{7C262964-A373-4119-899D-E5112656125B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
