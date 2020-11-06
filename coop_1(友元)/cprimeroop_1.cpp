@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+/*友元不可被继承*/
 
 class Screen;//先声明类,可以让Dog中的成员函数使用
 
