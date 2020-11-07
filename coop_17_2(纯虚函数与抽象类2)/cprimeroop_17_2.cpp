@@ -62,9 +62,49 @@ class Dog : public Mammal {
   Dog(int age, COLOR color) : Mammal(age), itsColor(color) {
     cout << "Dog的构造函数被调用...\n";
   }
+  virtual void Speak() const { cout << "whoof!...\n"; }
+  virtual void Sleep() const { cout << "Dog snoring...\n"; }
+  virtual void Eat() const { cout << "Dog eating...\n"; }
+  virtual void Move() const { cout << "Dog running...\n"; }
+  virtual void Reproduce() const { cout << "dog sreproducing...\n"; }
 
  protected:
   COLOR itsColor;
 };
 
-int main() { return 0; }
+int main() {
+  Animal *pAnimal = nullptr;
+  int choice;
+  bool fQuit = false;
+  while (fQuit == false) {
+    cout << "(1)Dog (2)Horse (3)Fish (0)Quit:";
+    cin >> choice;
+    switch (choice) {
+      case 1:
+        pAnimal = new Dog(2, Yellow);
+        break;
+      case 2:
+        pAnimal = new Horse(3, Blue);
+        break;
+      case 3:
+        pAnimal = new Fish(1);
+        break;
+      case 0:
+        fQuit = true;
+        break;
+      default:
+        break;
+    }
+    if (nullptr!=pAnimal) {
+      pAnimal->Speak();
+      pAnimal->Eat();
+      pAnimal->Reproduce();
+      pAnimal->Move();
+      pAnimal->Sleep();
+      delete pAnimal;
+      cout << endl;
+    }
+  }
+
+  return 0;
+}
