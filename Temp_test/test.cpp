@@ -44,9 +44,10 @@ void Locate(LinkstNode *&s, int e) {
   s->next = l;
 }
 
-void DispStack(LinkstNode *s, int *a[]) {
-  //int a[n];
-  int n = a.size;
+void DispStack(LinkstNode *s, int n) {
+  int *a;
+  a = new int[n];
+  
   for (int i = 0; i < n; i++) {
     a[i] = s->next->data;
     s = s->next;

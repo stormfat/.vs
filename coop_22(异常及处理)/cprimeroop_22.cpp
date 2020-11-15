@@ -126,8 +126,9 @@ int main() {
     e;
   } catch (BadCopy e) {
     e;
+  } catch (...) {  //捕获上面没有提到的所有异常
+    cout << "未知异常" << endl;
   }
-
   cout << "ok\n";
   return 0;
 }
