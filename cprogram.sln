@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coop_27(多继承与虚基�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coop_28(特殊工具與技術)", "coop_28(特殊工具與技術)\coop_28(特殊工具與技術).vcxproj", "{A2D9B24B-7B2D-4796-AA31-2AE37AC1238D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "coop_29(文本文件读写)", "coop_29(文本文件读写)\coop_29(文本文件读写).vcxproj", "{1912AEDE-FB68-42CB-9D23-6DC94274655A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -311,6 +313,14 @@ Global
 		{A2D9B24B-7B2D-4796-AA31-2AE37AC1238D}.Release|x64.Build.0 = Release|x64
 		{A2D9B24B-7B2D-4796-AA31-2AE37AC1238D}.Release|x86.ActiveCfg = Release|Win32
 		{A2D9B24B-7B2D-4796-AA31-2AE37AC1238D}.Release|x86.Build.0 = Release|Win32
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Debug|x64.ActiveCfg = Debug|x64
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Debug|x64.Build.0 = Debug|x64
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Debug|x86.Build.0 = Debug|Win32
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Release|x64.ActiveCfg = Release|x64
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Release|x64.Build.0 = Release|x64
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Release|x86.ActiveCfg = Release|Win32
+		{1912AEDE-FB68-42CB-9D23-6DC94274655A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
