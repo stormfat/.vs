@@ -1,10 +1,13 @@
-#include <stdlib.h>
+
 #include <string>
 #include <iostream>
 using namespace std;
 
 int main() {
-  char  name[64];
+  string name;
   cin >> name;
-  cout <<"output"<<name;
+  cout << "output" << name << endl;
+ 
+  system("pause");
+  return 0;
 }
