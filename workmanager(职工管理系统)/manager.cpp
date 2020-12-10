@@ -7,9 +7,9 @@ Manager::Manager(int id, string name, int dId) {
 }
 
 void Manager::showInfo() {
-  cout << "鑱屽伐缂栧彿: " << this->m_Id << "\t鑱屽伐濮撳悕: " << this->m_Name
-       << "\t宀椾綅: " << this->getDeptName()
-       << "\t宀椾綅鑱岃矗:瀹屾垚鑰佹澘浜ょ粰浠诲姟,骞朵笅鍙戜换鍔＄粰鍛樺伐" << endl;
+  cout << "职工编号: " << this->m_Id << "\t职工姓名: " << this->m_Name
+       << "\t岗位: " << this->getDeptName()
+       << "\t岗位职责:完成老板交给任务,并下发任务给员工" << endl;
 }
 
-string Manager::getDeptName() { return string("缁忕悊"); }
+string Manager::getDeptName() { return string("经理"); }

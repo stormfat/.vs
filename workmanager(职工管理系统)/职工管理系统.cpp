@@ -5,42 +5,42 @@
 using namespace std;
 
 int main() {
-  //å®ä¾‹åŒ–ç®¡ç†è€…å¯¹è±¡
+  //ÊµÀı»¯¹ÜÀíÕß¶ÔÏó
   WorkerManger wm;
 
   int choice = 0;
   while (true) {
-    //è°ƒç”¨å±•ç¤ºèœå•æˆå‘˜å‡½æ•°
+    //µ÷ÓÃÕ¹Ê¾²Ëµ¥³ÉÔ±º¯Êı
     wm.Show_Menu();
-    cout << "è¯·è¾“å…¥ä½ çš„é€‰æ‹©:" << endl;
+    cout << "ÇëÊäÈëÄãµÄÑ¡Ôñ:" << endl;
     cin >> choice;
     switch (choice) {
-    case 0: //é€€
+    case 0: //ÍË
       wm.exitSystem();
       break;
-    case 1: //å¢
+    case 1: //Ôö
       wm.Add_Emp();
       break;
-    case 2: //æ˜¾
+    case 2: //ÏÔ
       wm.Show_Emp();
       break;
-    case 3: //åˆ 
+    case 3: //É¾
       wm.Del_Emp();
       break;
-    case 4: //æ”¹
+    case 4: //¸Ä
       wm.Mod_Emp();
       break;
-    case 5: //æŸ¥
+    case 5: //²é
       wm.Find_Emp();
       break;
-    case 6: //æ’
+    case 6: //ÅÅ
       wm.Sort_Emp();
       break;
-    case 7: //æ¸…
+    case 7: //Çå
       wm.Clean_File();
       break;
     default:
-      system("cls"); //æ¸…å±
+      system("cls"); //ÇåÆÁ
       break;
     }
   }

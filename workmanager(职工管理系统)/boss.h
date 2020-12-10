@@ -3,11 +3,11 @@
 using namespace std;
 #include "worker.h"
 
-//è€æ¿ç±»
+//ÀÏ°åÀà
 class Boss : public Worker
 {
 public:
   Boss(int id, string name, int dId);
-  virtual void showInfo();      //æ˜¾ç¤ºä¸ªäººä¿¡æ¯
-  virtual string getDeptName(); //è·å–å²—ä½åç§°
+  virtual void showInfo();      //ÏÔÊ¾¸öÈËĞÅÏ¢
+  virtual string getDeptName(); //»ñÈ¡¸ÚÎ»Ãû³Æ
 };

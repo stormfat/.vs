@@ -9,9 +9,9 @@ Employee::Employee(int id, string name, int dId) {
 }
 
 void Employee::showInfo() {
-  cout << "èŒå·¥ç¼–å·: " << this->m_Id << "\tèŒå·¥å§“å: " << this->m_Name
-       << "\tå²—ä½: " << this->getDeptName() << "\tå²—ä½èŒè´£:å®Œæˆç»ç†äº¤ç»™çš„ä»»åŠ¡"
+  cout << "Ö°¹¤±àºÅ: " << this->m_Id << "\tÖ°¹¤ÐÕÃû: " << this->m_Name
+       << "\t¸ÚÎ»: " << this->getDeptName() << "\t¸ÚÎ»Ö°Ôð:Íê³É¾­Àí½»¸øµÄÈÎÎñ"
        << endl;
 }
 
-string Employee::getDeptName() { return string("å‘˜å·¥"); }
+string Employee::getDeptName() { return string("Ô±¹¤"); }
